@@ -1,4 +1,4 @@
-package com.dipesh.linkedList.implementation;
+package com.dipesh.linkedlist.implementation;
 
 public class LL {
     private Node head;
@@ -29,6 +29,8 @@ public class LL {
         Node node = new Node(val);
         tail.next = node;
         tail = node;
+
+        size++;
     }
 
     public void insert(int val, int index) {

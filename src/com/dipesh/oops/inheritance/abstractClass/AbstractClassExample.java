@@ -1,4 +1,4 @@
-package com.dipesh.oops.inheritance.abstractClass;
+package com.dipesh.oops.inheritance.abstractclass;
 
 /*
     * A class contain at least one abstract method is an Abstract class.

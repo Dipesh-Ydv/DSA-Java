@@ -1,7 +1,9 @@
-package com.dipesh.linkedList.implementation;
+package com.dipesh.linkedlist.implementation;
 
 public class Main {
     public static void main(String[] args) {
+/*
+        // singly linked list
         LL list = new LL();
 
         list.insertFirst(3);
@@ -18,5 +20,15 @@ public class Main {
         list.display();
         System.out.println(list.delete(1));
         list.display();
+*/
+        // Doubly Linked List
+        DLL dl = new DLL();
+
+        dl.insertLast(12);
+        dl.insertLast(2);
+        dl.displayFromStart();
+        dl.insertStart(4);
+        dl.insertStart(6);
+        dl.displayFromStart();
     }
 }

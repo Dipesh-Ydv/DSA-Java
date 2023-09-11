@@ -2,8 +2,9 @@ package com.dipesh.oops.inheritance;
 
 /*
      -> Dynamic method dispatch is used to achieve run time polymorphism.
-     -> In this we create an object of Sub type having reference of Super type.
+     -> In this we create an object of Sub type having reference to a Super type.
  */
+
 public class DynamicMethodDispatch {
     public static void main(String[] args) {
 
